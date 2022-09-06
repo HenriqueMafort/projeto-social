@@ -44,7 +44,6 @@ section#telefone{
 }
 
 section#botoes{
-
     position: fixed;
     right: 0px;
     width: 100px;
@@ -65,12 +64,15 @@ img{
 img#home{
     margin-bottom: 60px;
     margin-top: 25px;
+    box-sizing: border-box;
 }
 
 .icons:hover{
-    
+    border: 2px solid rgba(255, 255, 255, 0.479);
     transform: scale(1.3);
+    transition: transform 0.2s;
 }
+
 #tela{
     position: relative;
     top: 50px;
@@ -78,5 +80,5 @@ img#home{
 }
 
 frame:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
