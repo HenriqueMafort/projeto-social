@@ -21,6 +21,7 @@ transition: transform 0.3s, border 1s;
 }
 img{
     width: 100vw;
+    background-size: cover;
    }
 ::-webkit-scrollbar{
     width: 0px;
